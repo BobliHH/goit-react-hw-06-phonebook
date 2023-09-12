@@ -1,18 +1,10 @@
+import ContactForm from './ContactForm/ContactForm';
+import './App.css';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template<br />
-      first change
-    
+    <div className="Container">
+      <h1 className="Title">Phonebook📱</h1>
+      <ContactForm />
     </div>
   );
 };
