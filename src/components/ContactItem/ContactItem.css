@@ -1,0 +1,23 @@
+.ContactItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ContactName {
+  margin-right: 10px;
+}
+
+.Button {
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid red;
+}
+
+.Button:hover {
+  background-color: #ffffff;
+  color: red;
+  cursor: pointer;
+}

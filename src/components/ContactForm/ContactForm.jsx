@@ -83,7 +83,7 @@ function ContactForm() {
         onChange={handleNumberChange}
       />
 
-      <button className="Button" type="submit">
+      <button className="SubmitButton" type="submit">
         Submit
       </button>
     </form>

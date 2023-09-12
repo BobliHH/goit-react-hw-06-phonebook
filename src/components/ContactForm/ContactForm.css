@@ -14,17 +14,16 @@
   box-shadow: 0 1px 6px 0 #20212447;
 }
 
-.Button {
+.SubmitButton {
   margin-top: 5px;
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
-  :hover {
-    background-color: #e0e0e0;
-    > svg {
-      fill: #00b02f;
-    }
-  }
+}
+.SubmitButton:hover {
+  background-color: #ffffff;
+  color: green;
+  cursor: pointer;
 }
 
 .Text {
